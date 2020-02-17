@@ -1,6 +1,6 @@
 [package]
 name = "cosmwasm"
-version = "0.6.1"
+version = "0.6.4"
 authors = ["Ethan Frey <ethanfrey@users.noreply.github.com>"]
 edition = "2018"
 description = "Wasm smart contracts for Cosmos"
@@ -15,7 +15,7 @@ maintenance = { status = "actively-developed" }
 
 [workspace]
 members = [ "lib/vm" ]
-exclude = [ "contracts/hackatom" ]
+exclude = [ "contracts" ]
 
 [dependencies]
 serde-json-wasm = "0.1.2"
